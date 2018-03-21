@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>NINU DESIGN STUDIO</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="burger-menu" id="burger">
+					<span class="arrow"></span>
+					<span class="arrow"></span>
+					<span class="arrow"></span>
+				</div>
+		<div class="header-wrapper flex">
+		    <a  class="logo" href="index.html"><img src="img/ninu-logo.png"></a>
+			<div class="shopping-cart">
+				<a  class="shopping-cart-link" href="#">
+					<img clscc="shopping-cart-icon" src="img/bag.svg">
+					<span class="shopping-cart-quantity">1</span>
+				</a>
+					<div class="shopping-cart-dropdown-box">
+				<div class="shopping-cart-dropdown">
+			<div class="shopping-cart-dropdown-inner">
+					<ul class="cart-list">
+						<li class="product-list flex">
+							<a  href="#">
+						      <img width="70" height="60" src="img/bag.jpg" class="thumbnail"></a>
+						<div class="name-thumbnail">
+						<span>Vacation Backpack</span>
+					<span class="quantity">1 × <span class="amount">160$</span></span>
+					</div>
+					</li>
+						</ul>
+				</div>
+				<div class="hopping-cart-dropdown-inner-two flex">
+                <a href="#" class="qbutton">Cart<i class="fas fa-shopping-cart"></i></a>
+                <span class="total">Total:<span><span class="amount">160$</span></span></span>	
+             </div>
+				</div>
+				</div>
+			</div>
+		    </div>
+			<nav class="navigation flex" id="navigation">
+					<ul class="flex">
+						<li><a href="about.html">who is ninu?</a></li>
+						<li><a href="#">in wardrobe</a></li>
+						<li><a href="#">blog</a></li>
+						<li><a href="#">faq</a></li>
+						<li><a href="contact.html">contact</a></li>
+					</ul>
+				</nav>
+		</div>
+	</header>
+<div class="container about-wrapper">
+<img  class="about-img" src="img/about.jpg">
+<div class="about">
+<h3 class="post-title">WHO IS NINU?</h3>
+<div class="post-body">
+<div><span>Who indeed...</span></div>
+<div><span>In brief..</span></div>
+<div><span>I am a professional Outfit Magician & Model Dresser.</span></div>
+<div><span><a href="#"><img src="img/mannequin.svg"><span>View My Work</span></a></span></div>
+</div>
+</div>
+	<div class="social flex about-social">
+	<span class="social-title">FOLLOW ME</span>
+	<ul class="social-list flex">
+					<li><a href="#"><img src="img/pinterest.svg"></a></li>
+					<li><a href="#"><img src="img/facebook.svg"></a></li>
+					<li><a href="#"><img src="img/instagram.svg"></a></li>
+					<li><a href="#"><img src="img/twitter.svg"></a></li>
+				</ul>
+				</div>
+	</div>
+<div class="feedback">
+	<div class="container home-link flex">
+	<a href="index.html">Home</a>
+	</div>
+</div>
+<footer class="footer">
+	<section class="contact">
+		<div class="container flex footer-contact ">
+			<div class="contact-content flex">
+				<div class="txtNew"><p class="font"><span>Contact</span></p></div>
+				<div class="contact-line"></div>
+				<div class="txtNew2"><p class="font"><span>Telephone. 123-456-7890<br>
+                                                        Email.<a href="#">info@ninu.com</a></span></p>
+			</div>
+			</div>
+			<div class="contact-content two flex">
+				<div class="txtNew"><p class="font"><span>Store</span></p></div>
+				<div class="contact-line"></div>
+				<div class="txtNew2"><p class="font"><span>500 Terry Francois Street<br>
+                                                     San Francisco, CA 94158</span></p>
+			</div>
+			</div>
+		</div>
+	</section>
+	<div class="copyright">
+	<div class="container flex copyright-content">
+		<p> ©2018 created by: ME</p>
+		</div>
+	</div>
+</footer>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$("#burger").on( "click",function(){
+		$("#burger").toggleClass("active");
+		if($("#burger").hasClass("active")){
+			var elementheight = $("#navigation li").height();
+			var elementCount = $("#navigation li").length;
+			$("#navigation").css("height", elementheight * elementCount);
+		}else{
+			$("#navigation").css("height", "0");
+		}
+	})
+</script>
+</body>
+</html>

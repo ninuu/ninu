@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'Courier New';
+    src: url('../fonts/CourierNewPS-ItalicMT.eot?#iefix') format('embedded-opentype'),
+        url('../CourierNewPS-ItalicMT.woff2') format('woff2'),
+        url('../CourierNewPS-ItalicMT.woff') format('woff'),
+        url('../CourierNewPS-ItalicMT.ttf') format('truetype'),
+        url('../CourierNewPS-ItalicMT.svg#CourierNewPS-ItalicMT') format('svg');
+}
+@font-face {
+    font-family: 'Steelworks Vintage Demo';
+    src: url('../fonts/SteelworksVintageDemo.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SteelworksVintageDemo.woff2') format('woff2'),
+        url('../fonts/SteelworksVintageDemo.woff') format('woff'),
+        url('../fonts/SteelworksVintageDemo.ttf') format('truetype'),
+        url('../fonts/SteelworksVintageDemo.svg#SteelworksVintageDemo') format('svg');
+}
+@font-face {
+    font-family: 'Freeroad';
+    src: url('../fonts/FreeroadLightRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FreeroadLightRegular.woff2') format('woff2'),
+        url('../fonts/FreeroadLightRegular.woff') format('woff'),
+        url('../fonts/FreeroadLightRegular.ttf') format('truetype'),
+        url('../fonts/FreeroadLightRegular.svg#FreeroadLightRegular') format('svg');
+}
